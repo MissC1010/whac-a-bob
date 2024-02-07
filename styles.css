@@ -1,0 +1,41 @@
+.grid {
+  width: 606px;
+  height: 606px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  border: solid black 1px;
+}
+
+.mole {
+  background-image: url("bob.jpg");
+  background-size: cover;
+}
+
+h1 {
+  background-color: yellow;
+  padding: 5px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-left: 42%;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(190, 239, 140);
+}
+
+.score-container {
+  display: flex;
+  align-items: center;
+  margin-left: 45%;
+}
